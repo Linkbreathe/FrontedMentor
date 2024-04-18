@@ -1,0 +1,123 @@
+.container {
+    background-color:  hsl(218, 22%, 67%);
+    
+}
+
+.FlexContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+.LowerSection {
+    display: flex;
+    width: 40vw;
+    height: 28vh;
+    background-color: aliceblue;
+    
+}
+
+.UpperSection {
+    background-color: white ;
+    width: 40vw;
+    height: 28vh;
+}
+
+.heading {
+    font-family: "Karla";
+    color: rgb(74, 179, 177);
+    margin-top: 45px;
+    margin-left: 35px;
+}
+
+.subheading {
+    font-family: "Karla";
+    color: rgb(209, 228, 108);
+    margin-top: 45px;
+    margin-left: 35px;
+}
+
+.upperContent {
+    font-family: "Karla";
+    color: rgb(189, 193, 200);
+    margin-top: 15px;
+    margin-left: 35px;
+}
+
+.LeftSection {
+    background-color:rgb(43, 179, 177);
+    
+}
+.RightSection {
+    background-color:rgb(74, 190, 189);
+    
+}
+.LowerSection {
+    display: flex;
+}
+
+.LeftSection,
+.RightSection {
+    flex: 1; /* 让左右两个部分等比例填充剩余空间 */
+    
+}
+
+.subscriptionType {
+    color:white;
+    font-family: "Karla";
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+.PricePart {
+    display: flex;
+    flex-direction: row;
+}
+
+.feeStype {
+    font-family: "Karla";
+    color:white;
+    font-size: 45px;
+    font-family: Karla;
+    margin:0;
+    margin-left: 27px;
+    margin-top: 20px;
+    display: inline;
+}
+
+.monthStype {
+    font-family: "Karla";
+    color: rgb(209, 216, 223);
+    font-size: 18px;
+    margin-left: 27px;
+    display: inline;
+}
+
+.reminderStype {
+    color:white;
+    font-family: "Karla";
+    font-size: 18px;
+    margin-left: 27px;
+}
+.buttonStyle {
+    background-color:rgb(191, 223, 50);
+    width: 23vh;
+    height: 5vh;
+    border-radius: 5px;
+    color:white;
+    font-size: 20px;
+    font-family: "Karla";
+    margin-top: 20px;
+    border-style: none;
+    box-shadow: inset
+    0px 0px 10px 0px rgba(0, 0, 0, 0.25),
+    0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+    
+    margin-left:8vh;
+}
+
+.RightSection {
+    color:white;
+    font-family: "Karla";
+}
